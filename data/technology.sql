@@ -1,0 +1,1 @@
+INSERT INTO technology (id, name, description, url, logo_path, color_primary, color_secondary) VALUES (1, 'Angular', 'A platform for building mobile and desktop web applications.', 'https://angular.dev/', 'angular.svg', '#DD0031', '#C3002F');
