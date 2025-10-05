@@ -1,1 +1,4 @@
 INSERT INTO technology (id, name, description, url, logo_path, color_primary, color_secondary) VALUES (1, 'Angular', 'A platform for building mobile and desktop web applications.', 'https://angular.dev/', 'angular.svg', '#DD0031', '#C3002F');
+INSERT INTO technology (id, name, description, url, logo_path, color_primary, color_secondary) VALUES (2, 'Node.js', 'A JavaScript runtime built on Chrome\'s V8 JavaScript engine.', 'https://nodejs.org/', 'nodejs.svg', '#339933', '#333333');
+INSERT INTO technology (id, name, description, url, logo_path, color_primary, color_secondary) VALUES (3, 'React', 'A JavaScript library for building user interfaces.', 'https://reactjs.org/', 'react.svg', '#61DAFB', '#20232A');
+INSERT INTO technology (id, name, description, url, logo_path, color_primary, color_secondary) VALUES (4, 'Vue.js', 'The Progressive JavaScript Framework.', 'https://vuejs.org/', 'vue.svg', '#4FC08D', '#35495E');

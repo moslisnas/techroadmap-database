@@ -26,3 +26,42 @@ INSERT INTO technology_version (id_technology, name, description, release_date, 
 (1, '18', 'Experimental zoneless detection, SSR improvements, more optimizations and DX updates.', '2024-05-22', 'https://blog.angular.dev/angular-v18-is-now-available-89df4a73e6e7'),
 (1, '19', 'Standalone components, directives, and pipes are default; more tooling & performance refinements.', '2024-11-19', 'https://angular.dev/reference/releases'),
 (1, '20', 'Stabilization of effect, linkedSignal, toSignal; incremental hydration; updated dev tooling & debugging UX.', '2025-05-28', 'https://angular.dev/reference/releases');
+--Node.js
+INSERT INTO technology_version (id_technology, name, description, release_date, url) VALUES
+(2, '0.10.0', 'First stable release; introduced the "callback hell" problem.', '2013-03-11', 'https://nodejs.org/en/blog/release/v0.10.0/'),
+(2, '0.12.0', 'Improved performance and stability; added support for ES6 features.', '2015-02-09', 'https://nodejs.org/en/blog/release/v0.12.0/'),
+(2, '4.0.0', 'First major release after the merge with io.js; introduced npm 3 and ES6 features.', '2015-09-08', 'https://nodejs.org/en/blog/release/v4.0.0/'),
+(2, '6.0.0', 'Introduced npm 3, improved performance, and added support for ES6 features.', '2016-04-26', 'https://nodejs.org/en/blog/release/v6.0.0/'),
+(2, '8.0.0', 'Introduced async/await, improved performance, and added support for ES6 features.', '2017-05-30', 'https://nodejs.org/en/blog/release/v8.0.0/'),
+(2, '10.0.0', 'Introduced async/await, improved performance, and added support for ES6 features.', '2018-04-24', 'https://nodejs.org/en/blog/release/v10.0.0/'),
+(2, '12.0.0', 'Introduced async/await, improved performance, and added support for ES6 features.', '2019-04-23', 'https://nodejs.org/en/blog/release/v12.0.0/'),
+(2, '14.0.0', 'Introduced async/await, improved performance, and added support for ES6 features.', '2020-04-21', 'https://nodejs.org/en/blog/release/v14.0.0/'),
+(2, '16.0.0', 'Introduced async/await, improved performance, and added support for ES6 features.', '2021-04-20', 'https://nodejs.org/en/blog/release/v16.0.0/'),
+(2, '18.0.0', 'Introduced async/await, improved performance, and added support for ES6 features.', '2022-04-19', 'https://nodejs.org/en/blog/release/v18.0.0/'),
+(2, '20.0.0', 'Introduced async/await, improved performance, and added support for ES6 features.', '2023-04-18', 'https://nodejs.org/en/blog/release/v20.0.0/'),
+(2, '22.0.0', 'Introduced async/await, improved performance, and added support for ES6 features.', '2024-04-24', 'https://nodejs.org/en/blog/release/v22.0.0/'),
+(2, '24.0.0', 'Introduced async/await, improved performance, and added support for ES6 features.', '2025-05-06', 'https://nodejs.org/en/blog/release/v24.0.0/');
+--React
+INSERT INTO technology_version (id_technology, name, description, release_date, url) VALUES
+(3, '0', 'Initial public release; introduced the concept of a virtual DOM.', '2013-05-29', 'https://reactjs.org/blog/2013/05/29/react-v0.3.0.html'),
+(3, '0.4', 'Added support for comment nodes, improved server-side rendering APIs, and removed React.autoBind.', '2013-07-20', 'https://reactjs.org/blog/2013/07/20/react-v0.4.0.html'),
+(3, '0.5', 'Improved memory usage, added support for selection and composition events, and enhanced compatibility for Windows.', '2013-10-20', 'https://reactjs.org/blog/2013/10/20/react-v0.5.0.html'),
+(3, '0.8', 'Added support for rows & cols, defer & async, loop for <video> & <audio>, and autoCorrect attributes.', '2013-12-20', 'https://reactjs.org/blog/2013/12/20/react-v0.8.0.html'),
+(3, '0.9', 'Added support for crossOrigin, download and hrefLang, mediaGroup and muted, sandbox, seamless, and srcDoc, scope attributes.', '2014-02-20', 'https://reactjs.org/blog/2014/02/20/react-v0.9.0.html'),
+(3, '0.10', 'Added support for srcSet and textAnchor attributes, added update function for immutable data.', '2014-03-21', 'https://reactjs.org/blog/2014/03/21/react-v0.10.0.html'),
+(3, '0.11', 'Improved SVG support, normalized e.view event, and added support for namespaces.', '2014-07-17', 'https://reactjs.org/blog/2014/07/17/react-v0.11.0.html'),
+(3, '0.12', 'Introduced spread operator ({...}) to deprecate this.transferPropsTo, and added support for acceptCharset, classID, manifest HTML attributes.', '2014-11-21', 'https://reactjs.org/blog/2014/11/21/react-v0.12.0.html'),
+(3, '13', 'Deprecated patterns from 0.12, ref resolution order changed, and support for ES6 classes.', '2015-03-10', 'https://reactjs.org/blog/2015/03/10/react-v0.13.0.html'),
+(3, '14', 'Introduced ReactDOM.render, and removed React.render and React.renderToString.', '2015-10-07', 'https://reactjs.org/blog/2015/10/07/react-v0.14.0.html'),
+(3, '15', 'Introduced error boundaries, and removed deprecated lifecycle methods.', '2016-04-07', 'https://reactjs.org/blog/2016/04/07/react-v15.0.0.html'),
+(3, '16', 'Introduced Fiber architecture, error boundaries, and improved server-side rendering.', '2017-09-26', 'https://reactjs.org/blog/2017/09/26/react-v16.0.0.html'),
+(3, '17', 'No new features; enables gradual React updates from older versions.', '2020-10-20', 'https://reactjs.org/blog/2020/10/20/react-v17.0.html'),
+(3, '18', 'Introduced concurrent rendering, automatic batching, and new Suspense features.', '2022-03-29', 'https://reactjs.org/blog/2022/03/29/react-v18.html'),
+(3, '19', 'Introduced Actions, Server Components, and improved static site generation.', '2024-12-05', 'https://reactjs.org/blog/2024/12/05/react-v19.html');
+--Vue.js
+INSERT INTO technology_version (id_technology, name, description, release_date, url) VALUES
+(4, '0', 'Initial public release; introduced the core Vue.js concepts and reactivity system.', '2014-02-03', 'https://vuejs.org/blog/2014/02/03/vuejs-0-1-0/'),
+(4, '1', 'First stable release; established official API, component system, and ecosystem foundations.', '2015-10-27', 'https://vuejs.org/blog/2015/10/27/vuejs-1-0-0/'),
+(4, '2', 'Introduced virtual DOM improvements, enhanced component system, and better performance.', '2016-09-30', 'https://vuejs.org/blog/2016/09/30/vuejs-2-0-0/'),
+(4, '3', 'Introduced Composition API, improved TypeScript support, enhanced performance, and smaller bundle size.', '2020-09-18', 'https://vuejs.org/blog/2020/09/18/vue-3-0-0/');
+
