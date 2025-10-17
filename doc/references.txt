@@ -1,0 +1,246 @@
+🖥️ FRONT-END (Interfaz de usuario)
+🧩 Lenguajes base
+
+HTML5 – Estructura de la web.
+
+CSS3 – Estilos y diseño visual.
+
+JavaScript (ES6+) – Lenguaje principal del front-end.
+
+TypeScript – Superset tipado de JavaScript.
+
+⚙️ Frameworks y librerías
+
+React.js – Biblioteca de UI de Meta.
+
+Vue.js – Framework progresivo y liviano.
+
+Angular – Framework completo mantenido por Google.
+
+Svelte / SvelteKit – Framework reactivo compilado.
+
+Solid.js – Framework muy rápido y reactivo.
+
+Qwik – Enfocado en rendimiento y carga instantánea.
+
+Preact – Alternativa ligera a React.
+
+Alpine.js – JavaScript minimalista para pequeños proyectos.
+
+Lit – Web Components de Google.
+
+🎨 Frameworks CSS y preprocesadores
+
+Tailwind CSS – Framework utility-first moderno.
+
+Bootstrap – Framework clásico de componentes.
+
+Bulma – Basado en Flexbox, ligero.
+
+Foundation – Enfocado en accesibilidad.
+
+Material UI / MUI – Componentes basados en Material Design.
+
+Chakra UI – Componentes accesibles para React.
+
+Sass (SCSS) – Preprocesador CSS.
+
+Less – Otro preprocesador CSS.
+
+PostCSS – Transformaciones y plugins CSS.
+
+🧠 Otras tecnologías front-end
+
+Web Components – Estándar nativo de componentes.
+
+Canvas / WebGL / Three.js – Gráficos y 3D en navegador.
+
+D3.js / Chart.js / Recharts – Visualización de datos.
+
+Next.js (SSR/SSG con React)
+
+Nuxt.js (SSR/SSG con Vue)
+
+Astro – Framework para sitios estáticos híbridos.
+
+Remix – Framework full-stack basado en React.
+
+Electron – Apps de escritorio con tecnologías web.
+
+Expo / React Native Web – Integración web/móvil.
+
+⚙️ BACK-END (Lógica del servidor)
+🧩 Lenguajes
+
+JavaScript / TypeScript (Node.js)
+
+Python (Django, Flask, FastAPI)
+
+PHP (Laravel, Symfony)
+
+Ruby (Ruby on Rails)
+
+Java (Spring Boot, Quarkus, Micronaut)
+
+C# (.NET / ASP.NET Core)
+
+Go (Gin, Fiber, Echo)
+
+Rust (Actix, Rocket, Axum)
+
+Kotlin (Ktor, Spring Boot)
+
+Elixir (Phoenix)
+
+Scala (Play Framework)
+
+🔩 Frameworks y runtimes
+
+Node.js – Runtime para JS del lado del servidor.
+
+Express.js – Framework ligero para Node.js.
+
+NestJS – Framework TypeScript modular.
+
+AdonisJS – Inspirado en Laravel para Node.js.
+
+Hapi.js, Koa.js, Fastify – Frameworks alternativos Node.js.
+
+Deno – Runtime seguro para JavaScript/TypeScript.
+
+Bun – Runtime ultrarrápido y bundler moderno.
+
+Django / Flask / FastAPI – Frameworks Python populares.
+
+Laravel / Symfony / CodeIgniter – Frameworks PHP.
+
+Spring Boot / Quarkus – Frameworks Java empresariales.
+
+ASP.NET Core – Framework Microsoft para C#.
+
+🗄️ BASES DE DATOS
+🧮 Relacionales (SQL)
+
+PostgreSQL – Robusta y extendida.
+
+MySQL / MariaDB – Clásicas y ampliamente usadas.
+
+SQLite – Ligera y embebida.
+
+Microsoft SQL Server
+
+Oracle Database
+
+🧬 NoSQL
+
+MongoDB – Documentos JSON.
+
+Redis – En memoria, caché.
+
+Cassandra – Escalable para grandes volúmenes.
+
+CouchDB – Replicación flexible.
+
+DynamoDB (AWS) – Escalable y administrada.
+
+Firestore / Realtime Database (Firebase)
+
+🧰 Herramientas ORM / Query Builders
+
+Prisma (TypeScript)
+
+Sequelize (Node.js)
+
+TypeORM
+
+Mongoose (MongoDB)
+
+SQLAlchemy (Python)
+
+Doctrine (PHP)
+
+Entity Framework (.NET)
+
+☁️ DEVOPS / INFRAESTRUCTURA
+
+Docker – Contenedores.
+
+Kubernetes – Orquestación de contenedores.
+
+Nginx / Apache – Servidores web.
+
+AWS / Azure / Google Cloud – Plataformas cloud.
+
+Vercel / Netlify / Render – Hosting moderno.
+
+CI/CD: GitHub Actions, GitLab CI, Jenkins, CircleCI.
+
+Terraform / Ansible / Pulumi – Infraestructura como código.
+
+Cloudflare – CDN, DNS y seguridad.
+
+🧪 TESTING Y CALIDAD
+
+Jest – Testing para JS/TS.
+
+Mocha / Chai – Testing flexible.
+
+Vitest – Testing rápido con Vite.
+
+Cypress / Playwright / Puppeteer – Tests end-to-end.
+
+Supertest – Testing de APIs.
+
+Pytest / Unittest – Testing en Python.
+
+JUnit / TestNG – Testing en Java.
+
+RSpec / Minitest – Testing en Ruby.
+
+Selenium – Automatización de navegadores.
+
+🧰 MISCELÁNEA / HERRAMIENTAS AUXILIARES
+
+Vite / Webpack / Parcel / Rollup / Esbuild / Turbopack – Bundlers y build tools.
+
+Babel – Transpilador JS.
+
+ESLint / Prettier – Linter y formateador.
+
+pnpm / npm / yarn / bun – Gestores de paquetes.
+
+GraphQL / Apollo / urql – APIs declarativas.
+
+REST / gRPC / tRPC – Comunicación cliente-servidor.
+
+OpenAPI / Swagger – Documentación de APIs.
+
+WebSockets / Socket.IO – Comunicación en tiempo real.
+
+Service Workers / PWA – Aplicaciones web progresivas.
+
+Auth0 / Firebase Auth / Supabase Auth – Autenticación.
+
+Stripe / PayPal SDK / MercadoPago SDK – Pagos.
+
+Axios / Fetch / TanStack Query – Peticiones HTTP.
+
+🌐 FULL-STACK FRAMEWORKS Y PLATAFORMAS
+
+Next.js (React, SSR + API Routes)
+
+Remix (React)
+
+Nuxt.js (Vue)
+
+SvelteKit (Svelte)
+
+Blitz.js (Full-stack con React + Prisma)
+
+RedwoodJS (React + GraphQL + Prisma)
+
+Meteor.js (Tiempo real full-stack JS)
+
+Wasp (Declarativo, full-stack moderno)
+
+Appwrite / Supabase – Backend as a Service (BaaS).
