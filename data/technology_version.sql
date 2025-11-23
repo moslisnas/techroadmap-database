@@ -1020,11 +1020,11 @@ INSERT INTO technology_version (id_technology, name, description, release_date, 
 (124, '2', 'unittest 2: improved API, added test discovery, and enhanced assertion methods, included in Python 2.7.', '2010-07-03', 'https://docs.python.org/2/library/unittest.html', '0'),
 (124, '3', 'unittest 3: modernized framework with Python 3 compatibility, new assertion helpers, and improved test runner.', '2008-12-03', 'https://docs.python.org/3/library/unittest.html', '0'),
 (124, '4', 'unittest 4: added subTest context manager, enhanced fixtures, and integration with modern Python features (included in Python 3.4+).', '2014-03-16', 'https://docs.python.org/3/library/unittest.html', '0'),
-(124, '5', 'unittest 5: latest major improvements including enhanced mock integration, asynchronous test support, and modernized API (Python 3.8+).', '2019-10-14', 'https://docs.python.org/3/library/unittest.html', '1');
+(124, '5', 'unittest 5: latest major improvements including enhanced mock integration, asynchronous test support, and modernized API (Python 3.8+).', '2019-10-14', 'https://docs.python.org/3/library/unittest.html', '0');
 --JUnit
 INSERT INTO technology_version (id_technology, name, description, release_date, url, lts) VALUES (125, '3', 'JUnit 3: early stable version of JUnit, providing framework for unit testing Java applications with test case and test suite abstractions.', '2000-09-25', 'https://github.com/junit-team/junit4/releases/tag/r3.8.1', '0'),
 (125, '4', 'JUnit 4: major release introducing annotations, flexible test runners, and removal of naming conventions for test methods.', '2006-12-26', 'https://github.com/junit-team/junit4/releases/tag/r4.0', '0'),
-(125, '5', 'JUnit 5: complete rewrite with JUnit Platform, Jupiter, and Vintage modules, offering modern testing capabilities, extensions, and modular architecture.', '2017-09-10', 'https://github.com/junit-team/junit5/releases/tag/r5.0.0', '0');
+(125, '5', 'JUnit 5: complete rewrite with JUnit Platform, Jupiter, and Vintage modules, offering modern testing capabilities, extensions, and modular architecture.', '2017-09-10', 'https://github.com/junit-team/junit5/releases/tag/r5.0.0', '1');
 --TestNG
 INSERT INTO technology_version (id_technology, name, description, release_date, url, lts) VALUES (126, '5', 'TestNG 5: initial stable release of TestNG, a testing framework inspired by JUnit but designed for more flexible and powerful test configurations.', '2006-07-14', 'https://github.com/cbeust/testng/releases/tag/5.0', '0'),
 (126, '6', 'TestNG 6: major improvements including annotation enhancements, data providers, dependency testing, and suite configuration improvements.', '2012-04-05', 'https://github.com/cbeust/testng/releases/tag/6.0.0', '0'),
